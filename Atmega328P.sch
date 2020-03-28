@@ -211,7 +211,7 @@ U 1 1 5CA97BAD
 P 1725 3950
 F 0 "J1" H 1445 3954 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1445 4045 50  0000 R CNN
-F 2 "custom:AVR-ISP-6" V 1475 4000 50  0001 C CNN
+F 2 "custom:IDC-Header_2x03_Pitch2.54mm_Straight" V 1475 4000 50  0001 C CNN
 F 3 " ~" H 450 3400 50  0001 C CNN
 	1    1725 3950
 	-1   0    0    1   
@@ -448,8 +448,6 @@ Wire Notes Line
 Wire Notes Line
 	700  1750 2100 1750
 Wire Notes Line
-	2100 1750 2100 575 
-Wire Notes Line
 	2100 575  700  575 
 Wire Notes Line
 	725  1925 2100 1925
@@ -605,11 +603,11 @@ Wire Wire Line
 Wire Wire Line
 	4775 1700 5850 1700
 Text Label 825  4050 0    50   ~ 0
-MOSI_ISP
+MOSI
 Text Label 825  4150 0    50   ~ 0
-MISO_ISP
+MISO
 Text Label 825  3950 0    50   ~ 0
-SCK_ISP
+SCK
 Text Label 825  3850 0    50   ~ 0
 RESET
 Wire Wire Line
@@ -717,4 +715,6 @@ Wire Notes Line
 	800  5875 800  5000
 Text Label 1750 2675 0    50   ~ 0
 RESET
+Wire Notes Line
+	2100 1750 2100 575 
 $EndSCHEMATC
